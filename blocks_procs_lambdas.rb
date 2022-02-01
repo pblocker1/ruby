@@ -1,9 +1,9 @@
 # yield keyword transfers control. When called in a method, yield is expecting a block.
 
 def pass_control
-    puts 'This is inside the method!'
-    yield # Pass control from method to block
-    puts 'Now Im back inside the method'
+  puts 'This is inside the method!'
+  yield # Pass control from method to block
+  puts 'Now Im back inside the method'
 end
 
 pass_control { puts 'Now Im inside the block!'}

@@ -42,7 +42,6 @@ p phone.username
 # USE OF THE SETTER METHOD
 p phone.password = ('best password ever')
 
-
 shiny = Gadget.new
 flashy = Gadget.new
 
